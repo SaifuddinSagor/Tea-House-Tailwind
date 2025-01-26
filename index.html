@@ -29,9 +29,9 @@
 
 <body>
     <!-- main header content -->
-    <main class="max-w-screen-xl mx-auto px-16 lg:px-28 pt-10 flex">
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
 
-        <header class="flex pt-10 mb-20">
+        <header class="lg:flex pt-10 mb-20">
             <!-- content Title -->
             <div>
                 <h1 class="text-7xl md:text-7xl">It's good <br>tea time at The <br>Tea House</h1>
@@ -45,27 +45,70 @@
                     class=" w-22 h-16 font-bold text-center px-3 py-5 rounded-xl bg-gradient-to-l from-orange-600 via-orange-500 to-orange-300  text-white font">Explore
                     More<i class="fa-solid fa-arrow-right -rotate-45"></i></button>
 
+            </div>
+            <!-- Image content -->
+            <div class="relative">
+                <!-- Image -->
+                <div>
+                    <img class="w-full" src="images/banner.png" alt="">
                 </div>
-                    <!-- Image content -->
-                    <div class="relative">
-                        <!-- Image -->
-                        <div>
-                            <img class="w-full" src="images/banner.png" alt="">
-                        </div>
-                        <!-- card section -->
-                        <div
-                            class="absolute flex justify-center items-center rounded-xl bg-white drop-shadow-2xl transition transform hover:bg-white-100 hover:scale-105 duration-600 ease-in-out rounded-lg shadow-md mb-10 bg-green-600 shadow-lg shadow-green-600 easyin duration-300 px-2 py-2 md:px-2 lg:px-10 md:top-80 md:left-32 lg:left-28">
-                            <!-- Icon -->
-                            <div><i class="fa-regular fa-star text-2xl text-amber-500"></i></div>
-                            <!-- Text -->
-                            <div class="ml-2">
-                                <h2 class="lg:text-2xl font-bold">5.00</h2>
-                                <p class="text-gray-500">Trust Pilot Ratings</p>
-                            </div>
-                        </div>
+                <!-- card section -->
+                <div
+                    class="absolute flex justify-center items-center rounded-xl bg-white drop-shadow-2xl transition transform hover:bg-white-100 hover:scale-105 duration-600 ease-in-out rounded-lg shadow-md mb-10 bg-green-600 shadow-lg shadow-green-600 easyin duration-300 px-2 py-2 md:px-2 lg:px-10 md:top-80 md:left-32 lg:left-28">
+                    <!-- Icon -->
+                    <div><i class="fa-regular fa-star text-2xl text-amber-500"></i></div>
+                    <!-- Text -->
+                    <div class="ml-2">
+                        <h2 class="lg:text-2xl font-bold">5.00</h2>
+                        <p class="text-gray-500 ">Trust Pilot Ratings</p>
                     </div>
                 </div>
+            </div>
+            </div>
         </header>
+        <section class="py-8 lg:py-24">
+            <div class="text-center md:8">
+                <h1 class="text-8xl md:text-4xl font-bold mb-2">Our Featured Products</h1>
+                <p class="text-md text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form, by injected humour, or randomised words which don't
+                    look even slightly believable. </p>
+            </div>
+            <!-- Grid Section -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center ">
+                <!-- card 1-->
+                <div class="rounded-lg shadow-md bg-gray-50  overflow-hidden">
+                    <div class="p-4">
+                        <img class="mx-auto pt-4" src="images/fresh-1.png" alt="">
+                        <h3 class="font-bold text-xl">Milk Tea</h3>
+                        <p class="text-gray-600">Creamer Could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- card 2-->
+                <div class="rounded-lg bg-gray-50 shadow-md overflow-hidden">
+                    <div class="p-4">
+                        <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+                        <h3 class="font-bold text-xl">Black Tea</h3>
+                        <p class="text-gray-600">Creamer Could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- card 3-->
+                <div class="rounded-lg bg-gray-50 shadow-md overflow-hidden">
+                    <div class="p-4">
+                        <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+                        <h3 class="font-bold text-xl">Lemon Tea</h3>
+                        <p class="text-gray-600">Creamer Could be replaced by fresh milk</p>
+                    </div>
+                </div>
+                <!-- card 4-->
+                <div class="rounded-lg bg-gray-50 shadow-md overflow-hidden">
+                    <div class="p-4">
+                        <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
+                        <h3 class="font-bold text-xl">Green Tea</h3>
+                        <p class="text-gray-600">Creamer Could be replaced by fresh milk</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 </body>
