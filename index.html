@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +9,65 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <!-- CSS class for a variable style -->
-    .manrope-font {
-        font-family: "Manrope", serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-      }
-      <!-- Font awesome cdn -->
-      <script src="https://kit.fontawesome.com/175928b23a.js" crossorigin="anonymous"></script>
-      <!-- tailwindcss cdn -->
-      <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font awesome cdn -->
+    <script src="https://kit.fontawesome.com/175928b23a.js" crossorigin="anonymous"></script>
+    <!-- tailwindcss cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--  -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
+
 <body>
-    
+    <!-- main header content -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28 pt-10 flex">
+
+        <header class="flex pt-10 mb-20">
+            <!-- content Title -->
+            <div>
+                <h1 class="text-7xl md:text-7xl">It's good <br>tea time at The <br>Tea House</h1>
+                <br>
+                <!-- content Description -->
+                <p class="text-lg text-gray-500">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your
+                    Taste Buds.</p>
+                <br>
+                <!-- Button Content -->
+                <button
+                    class=" w-22 h-16 font-bold text-center px-3 py-5 rounded-xl bg-gradient-to-l from-orange-600 via-orange-500 to-orange-300  text-white font">Explore
+                    More<i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+
+                </div>
+                    <!-- Image content -->
+                    <div class="relative">
+                        <!-- Image -->
+                        <div>
+                            <img class="w-full" src="images/banner.png" alt="">
+                        </div>
+                        <!-- card section -->
+                        <div
+                            class="absolute flex justify-center items-center rounded-xl bg-white drop-shadow-2xl transition transform hover:bg-white-100 hover:scale-105 duration-600 ease-in-out rounded-lg shadow-md mb-10 bg-green-600 shadow-lg shadow-green-600 easyin duration-300 px-2 py-2 md:px-2 lg:px-10 md:top-80 md:left-32 lg:left-28">
+                            <!-- Icon -->
+                            <div><i class="fa-regular fa-star text-2xl text-amber-500"></i></div>
+                            <!-- Text -->
+                            <div class="ml-2">
+                                <h2 class="lg:text-2xl font-bold">5.00</h2>
+                                <p class="text-gray-500">Trust Pilot Ratings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </header>
+    </main>
+
 </body>
+
 </html>
