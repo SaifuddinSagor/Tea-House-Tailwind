@@ -68,7 +68,7 @@
         </header>
         <section class="py-8 lg:py-24">
             <div class="text-center md:8">
-                <h1 class="text-8xl md:text-4xl font-bold mb-2">Our Featured Products</h1>
+                <h1 class="md:text-8xl md:text-4xl font-bold mb-2">Our Featured Products</h1>
                 <p class="text-md text-gray-500">There are many variations of passages of Lorem Ipsum available, but the
                     majority have suffered alteration in some form, by injected humour, or randomised words which don't
                     look even slightly believable. </p>
@@ -109,9 +109,12 @@
                 </div>
             </div>
         </section>
-        <section class="mb-10 flex">
+
+
+
+        <section class="mb-10 md:flex lg:flex">
             <!-- card 1 -->
-            <div class="w-[500px] h-[520px] flex space-x-7">
+            <div class="w-[500px] h-[520px] md:flex space-x-7">
                 <div class="space-y-7">
                     <p class="w-60 h-36 bg-orange-100 rounded-md"></p>
                     <div class="w-60 h-80 bg-green-100 rounded-md ">
@@ -130,8 +133,8 @@
                 </div>
             </div>
             <section class="mb-24">
-                <div>
-                    <h1 class="font-bold text-5xl">Great Tea, Freshly Presented</h1>
+                <div class="space-x-10">
+                    <h1 class="ml-10 font-bold text-5xl">Great Tea, Freshly Presented</h1>
                     <br>
                     <p class="text-gray-600">The meaning of gong cha is chanese is to provide the best tea to emperor
                         from all possessions . It represents the highest quality and self expectation. Establishing in
@@ -149,23 +152,26 @@
                 </div>
             </section>
         </section>
-        <section class="mb-24">
+        <section>
             <div
-                class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols2 text-white px-7 md:px-16">
+                class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 lg:grid-cols-2 text-white px7 md:px-16  ">
                 <!-- Text section -->
-                <div class="w-5/6">
-                    <h1 class="font-bold text-5xl mb-5 mt-10">Meet Our Super Clients</h1>
-                    <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but
-                        the
-                        majority have suffered alteration in some form, by injected humour, or randomised words
-                        which don't look even slightly believable. </p>
-                    <button class="w-22 h-18 bg-white text-orange-700 px-3 py-2 rounded-lg">Show All</button>
+                <div class="flex justify-center items-center">
+                    <div class="w-5/6">
+                        <h1 class="font-bold text-5xl mb-5 mt-10">Meet Our Super Clients</h1>
+                        <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but
+                            the
+                            majority have suffered alteration in some form, by injected humour, or randomised words
+                            which don't look even slightly believable. </p>
+                        <button class="w-22 h-18 bg-white text-orange-700 px-3 py-2 rounded-lg">Show All</button>
+                    </div>
                 </div>
+
                 <!-- Reviews card Section -->
                 <div class="relative py-24">
                     <!-- Middle card -->
-                    <div class="absolute z-10 to-44 md:top-52">
-                        <div class="h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 ">
+                    <div class="absolute z-10 top-44 md:top-52">
+                        <div class=" relative h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 ">
                             <div class="absolute -top-5 -left-5 bg-white rounded-full">
                                 <img class="p-1" src="images/client.png" alt="">
                             </div>
@@ -206,8 +212,12 @@
 
                     </div>
                 </div>
-            </div>
+            </div> 
         </section>
+
+
+
+        <!--  -->
         <section class="mb-10">
             <div class=" space-x-10">
                 <div class="text-center">
@@ -219,47 +229,61 @@
                 </div>
             </div>
             <!-- Card 1 -->
-            <div class="grid grid-cols-3 space-x-10">
-                <div class="w-[364px] h-[440px] shadow-md  rounded-md shadow-yellow-200 space-x-10">
+            <div class=" m-5 p-3 grid grid-cols-3 justify-between space-x-4 ">
+                
+                <div class="h-[448px] shadow-md border  rounded-md space-x-5">
                     <div>
-                        <img class="ml-5 pt-5" src="images/news-1.png" alt="">
+                        <img class=" w-[300px] h-[190px] m-auto mt-3" src="images/news-1.png" alt="">
                     </div>
-                    <div class="ml-6 pt-5">
+                    <div class="pt-5  mr-4">
                         <p class="text-gray-700">Feb 05, 2027</p>
-                        <h4 class="pt-4 font-bold">Collecting 8 points for <br>discount</h4>
-                        <p class="pt-3 text-gray-700">There are many variations of passages of Lorem Ipsum available.
+                        <h4 class="pt-2 font-bold">Collecting 8 points for <br>discount</h4>
+                        <p class="pt-2 text-gray-700">There are many variations of passages of Lorem Ipsum available.
                         </p>
                         <h4 class=" pt-3 font-bold ">Learn More</h4>
                     </div>
                 </div>
-                <div class="w-[364px] h-[440px] shadow-md  rounded-md shadow-yellow-200">
+
+
+                <div class=" shadow-md border  rounded-md space-x-5">
                     <div>
-                        <img class="ml-5 pt-5" src="images/news-1.png" alt="">
+                        <img class=" w-[280px] h-[190px] m-auto mt-3" src="images/news-1.png" alt="">
                     </div>
-                    <div class="ml-6 pt-5">
+                    <div class="pt-3  mr-4">
                         <p class="text-gray-700">Feb 05, 2027</p>
-                        <h4 class="pt-4 font-bold">Collecting 8 points for <br>discount</h4>
-                        <p class="pt-3 text-gray-700">There are many variations of passages of Lorem Ipsum available.
+                        <h4 class="pt-2 font-bold">Collecting 8 points for <br>discount</h4>
+                        <p class="pt-2 text-gray-700">There are many variations of passages of Lorem Ipsum available.
                         </p>
                         <h4 class=" pt-3 font-bold ">Learn More</h4>
                     </div>
                 </div>
-                <div class="w-[364px] h-[440px] shadow-md  rounded-md shadow-yellow-200">
+
+
+                <div class=" shadow-md border  rounded-md space-x-5">
                     <div>
-                        <img class="ml-5 pt-5" src="images/news-1.png" alt="">
+                        <img class=" w-[280px] h-[190px] m-auto mt-3" src="images/news-1.png" alt="">
                     </div>
-                    <div class="ml-6 pt-5">
+                    <div class="pt-3  mr-4">
                         <p class="text-gray-700">Feb 05, 2027</p>
-                        <h4 class="pt-4 font-bold">Collecting 8 points for <br>discount</h4>
-                        <p class="pt-3 text-gray-700">There are many variations of passages of Lorem Ipsum available.
+                        <h4 class="pt-2 font-bold">Collecting 8 points for <br>discount</h4>
+                        <p class="pt-2 text-gray-700">There are many variations of passages of Lorem Ipsum available.
                         </p>
                         <h4 class=" pt-3 font-bold ">Learn More</h4>
                     </div>
                 </div>
+
+
+               
+
+
+               
             </div>
         </section>
 
     </main>
+
+
+
     <!-- Footer Section -->
     <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16 ">
         <div class="w-9/12 mx-auto">
@@ -330,7 +354,8 @@
                         <div>
                             <input placeholder="Email Address" type="text"
                                 class="bg-transparent border-b-2 border-black w-4/6" />
-                            <i class="fa-solid fa-chevron-right bg-orange-600 inline-flex rounded-full text-white justify-center items-center"></i>
+                            <i
+                                class="fa-solid fa-chevron-right bg-orange-600 inline-flex rounded-full text-white justify-center items-center px-3 py-2"></i>
                             <!-- Cevron > right -->
                             <div class="flex justify-between w-2/5 mb-2 mt-8">
                                 <i class="fa-brands fa-facebook"></i>
